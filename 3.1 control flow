@@ -1,0 +1,13 @@
+#Implement a python script for checking whether the citizen is eligible for vote or not.
+age=int(input('enter age : '))
+if age>=18:
+        print('eligible for voting')
+else:
+    print('not eligible for voting')
+    
+"""output:
+         enter age : 11
+         not eligible for voting
+         
+         enter age : 20
+         eligible for voting"""
